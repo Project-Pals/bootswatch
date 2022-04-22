@@ -84,7 +84,7 @@
 // Typography
 
 .text-secondary {
-  color: $gray-700 !important;
+  color: $orange !important;
 }
 
 .blockquote-footer {
@@ -221,6 +221,7 @@
   &-secondary {
     background-color: $secondary;
     border-color: shade-color($secondary, 10%);
+    color: white;
   }
 
   &-success {
@@ -259,7 +260,6 @@
     text-decoration: underline;
   }
 
-  &-secondary,
   &-light {
     &,
     a,
@@ -270,7 +270,10 @@
 }
 
 .badge {
-  &.bg-secondary,
+  &.bg-secondary {
+    color: white;
+  }
+
   &.bg-light {
     color: $dark;
   }

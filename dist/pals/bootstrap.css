@@ -11376,7 +11376,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #555 !important;
+  color: #F48625 !important;
 }
 
 .blockquote-footer {
@@ -11492,6 +11492,7 @@ textarea.form-control-lg {
 .alert-secondary {
   background-color: #F48625;
   border-color: #dc7921;
+  color: white;
 }
 .alert-success {
   background-color: #28b62c;
@@ -11522,15 +11523,16 @@ textarea.form-control-lg {
   color: #fff;
   text-decoration: underline;
 }
-.alert-secondary,
-.alert-secondary a,
-.alert-secondary .alert-link, .alert-light,
+.alert-light,
 .alert-light a,
 .alert-light .alert-link {
   color: #222;
 }
 
-.badge.bg-secondary, .badge.bg-light {
+.badge.bg-secondary {
+  color: white;
+}
+.badge.bg-light {
   color: #555;
 }
 
